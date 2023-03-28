@@ -1,0 +1,25 @@
+*{
+    background-color: black;
+}
+
+#superheros{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    align-items: center;
+    margin-top: 210px;
+    margin-left: 120px;
+    padding-left: 20px;
+}
+
+#sup {
+    border-radius: 15px;
+    height: 500px;
+    width: 170px;
+    object-fit: cover;
+}
+
+#sup:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
